@@ -1,9 +1,9 @@
-# C:\Users\fadel\AppData\Local\opam\playground\bin\dune-real.exe exec start
+# C:\Users\fadel\AppData\Local\Programs\DISKUV~1\bin\dune-real.exe build
 # OCAMLPARAM: unset
 # Shared cache: disabled
 # Workspace root: "C:\\Users\\fadel\\learning\\learning-ocaml\\start"
 # Auto-detected concurrency: 12
-$ C:\Users\fadel\AppData\Local\Programs\DISKUV~1\usr\bin\ocamlc.opt.exe -config > C:\Users\fadel\AppData\Local\Temp\dune_a5b659_output
+$ C:\Users\fadel\AppData\Local\Programs\DISKUV~1\usr\bin\ocamlc.opt.exe -config > C:\Users\fadel\AppData\Local\Temp\dune_8a7783_output
 # Dune context:
 #  { name = "default"
 #  ; kind = "default"
@@ -12,10 +12,7 @@ $ C:\Users\fadel\AppData\Local\Programs\DISKUV~1\usr\bin\ocamlc.opt.exe -config 
 #  ; for_host = None
 #  ; fdo_target_exe = None
 #  ; build_dir = "default"
-#  ; toplevel_path =
-#      Some
-#        External
-#          "C:\\Users\\fadel\\AppData\\Local\\opam\\playground\\lib\\toplevel"
+#  ; toplevel_path = None
 #  ; ocaml_bin =
 #      External
 #        "C:\\Users\\fadel\\AppData\\Local\\Programs\\DISKUV~1\\usr\\bin"
@@ -40,14 +37,18 @@ $ C:\Users\fadel\AppData\Local\Programs\DISKUV~1\usr\bin\ocamlc.opt.exe -config 
 #          "C:\\Users\\fadel\\AppData\\Local\\Programs\\DISKUV~1\\usr\\bin\\ocamlmklib.opt.exe"
 #  ; env =
 #      map
-#        { "DUNE_OCAML_HARDCODED" :
-#            "C:\\Users\\fadel\\AppData\\Local\\opam\\playground\\lib"
+#        { "CAML_LD_LIBRARY_PATH" :
+#            "C:\\Users\\fadel\\learning\\learning-ocaml\\start\\_build/install/default/lib/stublibs"
+#        ; "DUNE_OCAML_HARDCODED" :
+#            "C:\\Users\\fadel\\AppData\\Local\\Programs\\DISKUV~1\\usr\\lib"
 #        ; "DUNE_OCAML_STDLIB" :
 #            "C:/Users/fadel/AppData/Local/Programs/DISKUV~1/lib/ocaml"
 #        ; "DUNE_SOURCEROOT" :
 #            "C:\\Users\\fadel\\learning\\learning-ocaml\\start"
 #        ; "INSIDE_DUNE" :
 #            "C:\\Users\\fadel\\learning\\learning-ocaml\\start\\_build/default"
+#        ; "MANPATH" :
+#            "C:\\Users\\fadel\\learning\\learning-ocaml\\start\\_build/install/default/bin"
 #        ; "OCAML_COLOR" : "always"
 #        ; "OCAMLFIND_IGNORE_DUPS_IN" :
 #            "C:\\Users\\fadel\\learning\\learning-ocaml\\start\\_build/install/default/lib"
@@ -58,7 +59,9 @@ $ C:\Users\fadel\AppData\Local\Programs\DISKUV~1\usr\bin\ocamlc.opt.exe -config 
 #        ; "OPAMCOLOR" : "always"
 #        }
 #  ; findlib_paths =
-#      [ External "C:\\Users\\fadel\\AppData\\Local\\opam\\playground\\lib" ]
+#      [ External
+#          "C:\\Users\\fadel\\AppData\\Local\\Programs\\DISKUV~1\\usr\\lib"
+#      ]
 #  ; arch_sixtyfour = true
 #  ; natdynlink_supported = true
 #  ; supports_shared_libraries = true

@@ -2,3 +2,9 @@
 
 (** @canonical Start.En *)
 module En = Start__En
+
+(** @canonical Start.Es *)
+module Es = Start__Es
+
+(** @canonical Start.Hello *)
+module Hello = Start__Hello
