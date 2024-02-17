@@ -17,8 +17,12 @@ let init_player ( n : string): player =
 
   player
 
-let change_name (p : player) ( n : string) : player =
+let change_name (p : player) : player =
+  print_endline "Enter new name: ";
+  let n = read_line () in
+  print_endline ("Name changed " ^ n);
   { p with name = n}
+  
 
 
 
